@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  background-color: #000000;
 }
 
 .hero-image {
@@ -23,4 +24,64 @@ body, html {
   background-size: contain;
   width: 100%;
   height: 80%;
+}
+
+.hero-heading {
+  position: relative;
+  margin:auto;
+  text-align: center;
+  font-size: 40px;
+  padding: 2%;
+  color: #ffffff;
+}
+
+.button-wrapper {
+  display: grid;
+  grid-column-gap: 2%;
+  grid-row-gap: 3%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px  80px;
+  width:70%;
+  padding: 10px;
+  margin: auto;
+}
+
+.button {
+  font-size: 40px;
+  width:100%;
+  color: white;
+  text-align: right;
+  vertical-align: middle;
+  border:1px solid white;
+  display: inline-block;
+  background-color: #687e82;
+}
+
+.button a {
+  width: 100%;
+  text-decoration: none;
+  color:inherit;
+  display:block;
+}
+
+.button img {
+  filter: brightness(0) invert(1);
+  float:left;
+  width: 60px;
+  padding: 0;
+  margin: 5px;
+}
+
+.footer {
+  margin:auto;
+  width: 60%;
+  font-size: 20px;
+}
+
+.footer p{
+  color: #ffffff;
+}
+
+.footer span {
+  color: #e0d2b8;
 }
