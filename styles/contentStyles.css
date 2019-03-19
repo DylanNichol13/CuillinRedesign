@@ -10,6 +10,7 @@ body, html {
 .content p {
   font-size: 28px;
   color: #ffffff;
+  line-height: 2em;
 }
 .slideshow{
   text-align: center;
@@ -36,4 +37,63 @@ body, html {
 #slide-fwd {
   left:47%;
   bottom:50%;
+}
+
+.img_gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1em;
+  column-gap: 0;
+}
+
+.imgThumbnail {
+  width: 80%;
+  height: auto;
+}
+
+.imgSingle {
+  display: block;
+  margin: auto;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  resize: vertical;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit]{
+  color:white;
+  padding: 12px 20px;
+  background-color: #687e82;
+}
+
+.blog-post {
+  margin:auto;
+  width: 50%;
+}
+
+.blog-post h1 {
+  font-size: 28px;
+  color: #ffffff;
+  line-height: 2em;
+  text-align: center;
+}
+.blog-post h2 {
+  font-size: 18px;
+  color: grey;
+  margin: 10px;
+  text-align: center;
+}
+.blog-post h3 {
+  font-size: 10px;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+.blog-post img {
+  padding: 5px;
 }

@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="styles/contentStyles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="scripts/slideshow.js"></script>
+  <style>
+    #index-btn{ background-color: #aa9b80; }
+  </style>
 </head>
 
 <body>

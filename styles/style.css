@@ -41,7 +41,7 @@ body, html {
   grid-row-gap: 3%;
   grid-template-columns: auto auto auto;
   grid-template-rows: 80px  80px;
-  width:70%;
+  width:60%;
   padding: 10px;
   margin: auto;
 }
@@ -57,8 +57,13 @@ body, html {
   background-color: #687e82;
 }
 
+.button:hover {
+  background-color: #aa9b80;
+}
+
 .button a {
   width: 100%;
+  margin-right: 5px;
   text-decoration: none;
   color:inherit;
   display:block;
@@ -69,7 +74,7 @@ body, html {
   float:left;
   width: 60px;
   padding: 0;
-  margin: 5px;
+  margin: 3px;
 }
 
 .footer {
@@ -84,4 +89,28 @@ body, html {
 
 .footer span {
   color: #e0d2b8;
+}
+
+.footer-buttons{
+  width: 100%;
+  text-align: center;
+}
+
+.fa{
+  border-radius: 10px;
+  padding: 20px;
+  font-size:30px;
+  width:20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  background: #aa9b80;
+  color:white;
+}
+
+.footer-buttons:hover a{
+  background: rgba(255, 255, 255, 0.2);
+}
+.footer-buttons a:hover {
+  background: rgba(255,2550, 255, 0.8);
 }
